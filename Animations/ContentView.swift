@@ -102,7 +102,14 @@ struct ContentView: View {
                     if self.showmoonshot {
                         NavigationLink(destination: ResizImage()) {
                             Text("GeometryReader Image")
-                                .font(.headline)
+                        }
+                        
+                        NavigationLink(destination: ScrollingView()) {
+                            Text("Scroll view is not lazy")
+                        }
+                        
+                        NavigationLink(destination: HierarchicalCodable()) {
+                            Text("JSON Decode")
                         }
                     }
                 }
