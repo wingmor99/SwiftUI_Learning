@@ -30,6 +30,7 @@
 		7A7F9A1423E1D7B100205919 /* StoreInJason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1323E1D7B100205919 /* StoreInJason.swift */; };
 		7A7F9A1623E1D91800205919 /* IExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1523E1D91800205919 /* IExpense.swift */; };
 		7A7F9A1823E2392E00205919 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1723E2392D00205919 /* AddView.swift */; };
+		7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1A23E5CD0200205919 /* ResizImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		7A7F9A1323E1D7B100205919 /* StoreInJason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInJason.swift; sourceTree = "<group>"; };
 		7A7F9A1523E1D91800205919 /* IExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExpense.swift; sourceTree = "<group>"; };
 		7A7F9A1723E2392D00205919 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		7A7F9A1A23E5CD0200205919 /* ResizImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		7A7F9A1923E5CAD700205919 /* MoonShot */ = {
 			isa = PBXGroup;
 			children = (
+				7A7F9A1A23E5CD0200205919 /* ResizImage.swift */,
 			);
 			path = MoonShot;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
+				7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */,
 				7A7F9A1023E0F76100205919 /* SwipDelete.swift in Sources */,
 				7A7F99F923DF3B1700205919 /* animationBingingButton.swift in Sources */,
 			);
