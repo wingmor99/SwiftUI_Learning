@@ -21,6 +21,15 @@
 		7A7F99F923DF3B1700205919 /* animationBingingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99F823DF3B1700205919 /* animationBingingButton.swift */; };
 		7A7F99FB23DF3FED00205919 /* Headtext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99FA23DF3FED00205919 /* Headtext.swift */; };
 		7A7F99FD23DF449300205919 /* easeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99FC23DF449300205919 /* easeButton.swift */; };
+		7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99FF23DFA4D400205919 /* animatingGestures.swift */; };
+		7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A0123DFADAD00205919 /* StringAnimating.swift */; };
+		7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A0A23E0C2E700205919 /* transitionAnimation.swift */; };
+		7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A0C23E0C4D600205919 /* customTransitions.swift */; };
+		7A7F9A1023E0F76100205919 /* SwipDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A0F23E0F76100205919 /* SwipDelete.swift */; };
+		7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1123E133FA00205919 /* SaveInDefault.swift */; };
+		7A7F9A1423E1D7B100205919 /* StoreInJason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1323E1D7B100205919 /* StoreInJason.swift */; };
+		7A7F9A1623E1D91800205919 /* IExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1523E1D91800205919 /* IExpense.swift */; };
+		7A7F9A1823E2392E00205919 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A1723E2392D00205919 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +70,15 @@
 		7A7F99F823DF3B1700205919 /* animationBingingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationBingingButton.swift; sourceTree = "<group>"; };
 		7A7F99FA23DF3FED00205919 /* Headtext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headtext.swift; sourceTree = "<group>"; };
 		7A7F99FC23DF449300205919 /* easeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easeButton.swift; sourceTree = "<group>"; };
+		7A7F99FF23DFA4D400205919 /* animatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatingGestures.swift; sourceTree = "<group>"; };
+		7A7F9A0123DFADAD00205919 /* StringAnimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAnimating.swift; sourceTree = "<group>"; };
+		7A7F9A0A23E0C2E700205919 /* transitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionAnimation.swift; sourceTree = "<group>"; };
+		7A7F9A0C23E0C4D600205919 /* customTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTransitions.swift; sourceTree = "<group>"; };
+		7A7F9A0F23E0F76100205919 /* SwipDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipDelete.swift; sourceTree = "<group>"; };
+		7A7F9A1123E133FA00205919 /* SaveInDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveInDefault.swift; sourceTree = "<group>"; };
+		7A7F9A1323E1D7B100205919 /* StoreInJason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInJason.swift; sourceTree = "<group>"; };
+		7A7F9A1523E1D91800205919 /* IExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExpense.swift; sourceTree = "<group>"; };
+		7A7F9A1723E2392D00205919 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +132,9 @@
 				7A7F99C123DE857000205919 /* AppDelegate.swift */,
 				7A7F99C323DE857000205919 /* SceneDelegate.swift */,
 				7A7F99C823DE857000205919 /* ContentView.swift */,
-				7A7F99FE23DF44A300205919 /* Buttons */,
+				7A7F9A1923E5CAD700205919 /* MoonShot */,
+				7A7F9A0E23E0F73800205919 /* iExpense */,
+				7A7F99FE23DF44A300205919 /* Animations */,
 				7A7F99CA23DE857100205919 /* Assets.xcassets */,
 				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
 				7A7F99D223DE857100205919 /* Info.plist */,
@@ -150,16 +170,39 @@
 			path = AnimationsUITests;
 			sourceTree = "<group>";
 		};
-		7A7F99FE23DF44A300205919 /* Buttons */ = {
+		7A7F99FE23DF44A300205919 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
 				7A7F99F423DE859800205919 /* Button1.swift */,
 				7A7F99F623DF38AE00205919 /* explicitAnimationButton.swift */,
+				7A7F99FF23DFA4D400205919 /* animatingGestures.swift */,
 				7A7F99F823DF3B1700205919 /* animationBingingButton.swift */,
+				7A7F9A0123DFADAD00205919 /* StringAnimating.swift */,
 				7A7F99FA23DF3FED00205919 /* Headtext.swift */,
 				7A7F99FC23DF449300205919 /* easeButton.swift */,
+				7A7F9A0A23E0C2E700205919 /* transitionAnimation.swift */,
+				7A7F9A0C23E0C4D600205919 /* customTransitions.swift */,
 			);
-			path = Buttons;
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		7A7F9A0E23E0F73800205919 /* iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F9A0F23E0F76100205919 /* SwipDelete.swift */,
+				7A7F9A1123E133FA00205919 /* SaveInDefault.swift */,
+				7A7F9A1323E1D7B100205919 /* StoreInJason.swift */,
+				7A7F9A1523E1D91800205919 /* IExpense.swift */,
+				7A7F9A1723E2392D00205919 /* AddView.swift */,
+			);
+			path = iExpense;
+			sourceTree = "<group>";
+		};
+		7A7F9A1923E5CAD700205919 /* MoonShot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MoonShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,12 +338,21 @@
 			files = (
 				7A7F99FB23DF3FED00205919 /* Headtext.swift in Sources */,
 				7A7F99F523DE859800205919 /* Button1.swift in Sources */,
+				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
+				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
+				7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */,
+				7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */,
+				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
+				7A7F9A1623E1D91800205919 /* IExpense.swift in Sources */,
+				7A7F9A1423E1D7B100205919 /* StoreInJason.swift in Sources */,
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
+				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
+				7A7F9A1023E0F76100205919 /* SwipDelete.swift in Sources */,
 				7A7F99F923DF3B1700205919 /* animationBingingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

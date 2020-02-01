@@ -10,20 +10,64 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List {
-            Headtext(text: "Shape with color animation")
-                .font(.headline)
-            Button1()
-            
-            
-            Headtext(text: "Animation with value increase")
-            explicitAnimationButton()
-            
-            Headtext(text: "Animation with stepper")
-            animationBingingButton()
-            
-            Headtext(text: "On appear animation")
-            easeButton()
+        NavigationView {
+            List {
+                VStack(alignment: .leading) {
+                    Headtext(text: "Shape with color animation")
+                    Divider()
+                    Button1()
+                    
+                    Divider()
+                    
+                    Headtext(text: "Animation with value increase")
+                    Divider()
+                    explicitAnimationButton()
+                }
+                VStack(alignment: .leading) {
+                    Headtext(text: "Animation with stepper")
+                    Divider()
+                    animationBingingButton()
+                    
+                    Headtext(text: "On appear animation")
+                    Divider()
+                    easeButton()
+                }
+                
+                Text("Advance animating usages")
+                    .font(.headline)
+                    .foregroundColor(.yellow)
+                
+                Group {
+                    NavigationLink(destination: animatingGestures()) {
+                        Text("Animating Gestures")
+                    }
+                    
+                    NavigationLink(destination: StringAnimating()) {
+                        Text("String Animating")
+                    }
+                    
+                    NavigationLink(destination:transitionAnimation()) {
+                        Text("transitionAnimation")
+                    }
+                    
+                    NavigationLink(destination: customTransitions()) {
+                        Text("Custom Transitions")
+                    }
+                    
+                    NavigationLink(destination: SwipDelete()) {
+                        Text("Swip Delete")
+                    }
+                    
+                    NavigationLink(destination: SaveInDefaults()) {
+                        Text("Save In Defaults")
+                    }
+                    
+                    NavigationLink(destination: IExpense()) {
+                        Text("iExpense project")
+                    }
+                }
+                
+            }
         }
     }
 }
