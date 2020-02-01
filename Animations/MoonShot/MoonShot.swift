@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MoonShot: View {
-    let astronauts = Bundle.main.decode("astronauts.json")
+    let astronauts: [AStronaut] = Bundle.main.decode("astronauts.json")
     
     var body: some View {
         Text("\(astronauts.count)")
