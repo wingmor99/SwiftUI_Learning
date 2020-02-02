@@ -40,6 +40,7 @@
 		7A7F9A2E23E618F900205919 /* Buddle_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */; };
 		7A7F9A3023E61BF000205919 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2F23E61BF000205919 /* Mission.swift */; };
 		7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3123E651FF00205919 /* MissionDetail.swift */; };
+		7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3323E65F6100205919 /* AstronauntDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddle_Decodable.swift; sourceTree = "<group>"; };
 		7A7F9A2F23E61BF000205919 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		7A7F9A3123E651FF00205919 /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
+		7A7F9A3323E65F6100205919 /* AstronauntDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronauntDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 			children = (
 				7A7F9A2423E6160F00205919 /* astronauts.json */,
 				7A7F9A2B23E616CA00205919 /* Astronauts.swift */,
+				7A7F9A3323E65F6100205919 /* AstronauntDetailView.swift */,
 				7A7F9A2523E6160F00205919 /* missions.json */,
 				7A7F9A2F23E61BF000205919 /* Mission.swift */,
 				7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */,
@@ -384,6 +387,7 @@
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
+				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
 				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
