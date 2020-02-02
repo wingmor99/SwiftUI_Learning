@@ -15,7 +15,7 @@ struct MoonShot: View {
     var body: some View {
         NavigationView {
             List(missions) {mission in
-                NavigationLink(destination: Text("Detail View")) {
+                NavigationLink(destination: MissionDetail(mission: mission)) {
                     Image(mission.image)
                         .resizable()
                         .scaledToFit()

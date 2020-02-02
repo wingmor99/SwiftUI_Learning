@@ -39,6 +39,7 @@
 		7A7F9A2C23E616CA00205919 /* Astronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2B23E616CA00205919 /* Astronauts.swift */; };
 		7A7F9A2E23E618F900205919 /* Buddle_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */; };
 		7A7F9A3023E61BF000205919 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2F23E61BF000205919 /* Mission.swift */; };
+		7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3123E651FF00205919 /* MissionDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		7A7F9A2B23E616CA00205919 /* Astronauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronauts.swift; sourceTree = "<group>"; };
 		7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddle_Decodable.swift; sourceTree = "<group>"; };
 		7A7F9A2F23E61BF000205919 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		7A7F9A3123E651FF00205919 /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				7A7F9A2523E6160F00205919 /* missions.json */,
 				7A7F9A2F23E61BF000205919 /* Mission.swift */,
 				7A7F9A2D23E618F900205919 /* Buddle_Decodable.swift */,
+				7A7F9A3123E651FF00205919 /* MissionDetail.swift */,
 			);
 			path = MoonShotSupport;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A7F99FB23DF3FED00205919 /* Headtext.swift in Sources */,
+				7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */,
 				7A7F99F523DE859800205919 /* Button1.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
