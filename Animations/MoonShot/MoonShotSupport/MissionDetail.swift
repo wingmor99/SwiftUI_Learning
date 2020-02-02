@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct MissionDetail: View {
+    private var missions: [Mission] = Bundle.main.decode("missions.json")
     struct CrewMember {
         let role: String
         let astronaut: AStronaut
@@ -31,7 +32,7 @@ struct MissionDetail: View {
                         .padding()
                     
                     ForEach(self.astronauts, id: \.role) { crewMember in
-                        NavigationLink(destination: AstronauntDetailView(astronaut: crewMember.astronaut)) {
+                        NavigationLink(destination: AstronauntDetailView(astronaut: crewMember.astronaut, missions: self.missions)) {
                             HStack{
                                 Image(crewMember.astronaut.id)
                                 .resizable()

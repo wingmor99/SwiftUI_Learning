@@ -12,7 +12,7 @@
 
 import Foundation
 
-struct CrewRole: Codable {
+struct CrewRole: Codable, Equatable {
        let name: String
        let role: String
    }
