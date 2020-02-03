@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var showfollow2 = false
     @State private var showiexpense = false
     @State private var showmoonshot = false
-    
+    @State private var showDraw = false
     
     var body: some View {
         NavigationView {
@@ -23,9 +23,12 @@ struct ContentView: View {
                     HStack {
                         Text("Basic Animation")
                         Spacer()
-                        Image(systemName: "plus").onTapGesture {
-                            self.showfollow1.toggle()}
-                }) {
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showfollow1.toggle()
+                        
+                    }
+                ){
                     if self.showfollow1 {
                         Headtext(text: "Shape with color animation")
                         Button1()
@@ -44,10 +47,11 @@ struct ContentView: View {
                     HStack{
                         Text("Advance animating usages")
                         Spacer()
-                        Image(systemName: "plus").onTapGesture {
-                            self.showfollow2.toggle()
-                        }
-                    }) {
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showfollow2.toggle()
+                    }
+                ){
                         if showfollow2 {
                             NavigationLink(destination: animatingGestures()) {
                                 Text("Animating Gestures")
@@ -71,10 +75,10 @@ struct ContentView: View {
                         Text("iExpense Project")
                         Spacer()
                         Image(systemName: "plus")
-                            .onTapGesture {
-                                self.showiexpense.toggle()
-                        }
-                }) {
+                    }.onTapGesture {
+                            self.showiexpense.toggle()
+                    }
+                ){
                     if showiexpense {
                         NavigationLink(destination: SwipDelete()) {
                             Text("Swip Delete")
@@ -94,9 +98,8 @@ struct ContentView: View {
                         Text("MoonShot Project")
                         Spacer()
                         Image(systemName: "plus")
-                            .onTapGesture {
-                                self.showmoonshot.toggle()
-                        }
+                    }.onTapGesture {
+                            self.showmoonshot.toggle()
                     }
                 ) {
                     if self.showmoonshot {
@@ -113,6 +116,23 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: MoonShot()) {
                             Text("MoonShot Project")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack{
+                        Text("Drawing")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showDraw.toggle()
+                }) {
+                    if self.showDraw {
+                        NavigationLink(destination: customPaths()) {
+                            Text("custom Draw with Paths")
+                        }
+                        NavigationLink(destination: pathVSshapes()) {
+                            Text("customize path stuct for future")
                         }
                     }
                 }

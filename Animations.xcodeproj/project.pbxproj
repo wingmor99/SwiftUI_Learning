@@ -41,6 +41,8 @@
 		7A7F9A3023E61BF000205919 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A2F23E61BF000205919 /* Mission.swift */; };
 		7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3123E651FF00205919 /* MissionDetail.swift */; };
 		7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3323E65F6100205919 /* AstronauntDetailView.swift */; };
+		7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3723E7B1FD00205919 /* customPaths.swift */; };
+		7A7F9A3A23E7BC3000205919 /* pathVSshapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		7A7F9A2F23E61BF000205919 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		7A7F9A3123E651FF00205919 /* MissionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetail.swift; sourceTree = "<group>"; };
 		7A7F9A3323E65F6100205919 /* AstronauntDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronauntDetailView.swift; sourceTree = "<group>"; };
+		7A7F9A3723E7B1FD00205919 /* customPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPaths.swift; sourceTree = "<group>"; };
+		7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathVSshapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,11 +158,12 @@
 				7A7F99C123DE857000205919 /* AppDelegate.swift */,
 				7A7F99C323DE857000205919 /* SceneDelegate.swift */,
 				7A7F99C823DE857000205919 /* ContentView.swift */,
-				7A7F9A1923E5CAD700205919 /* MoonShot */,
-				7A7F9A0E23E0F73800205919 /* iExpense */,
 				7A7F99FE23DF44A300205919 /* Animations */,
-				7A7F99CA23DE857100205919 /* Assets.xcassets */,
+				7A7F9A0E23E0F73800205919 /* iExpense */,
+				7A7F9A1923E5CAD700205919 /* MoonShot */,
 				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
+				7A7F9A3623E7B1D900205919 /* Drawing */,
+				7A7F99CA23DE857100205919 /* Assets.xcassets */,
 				7A7F99D223DE857100205919 /* Info.plist */,
 				7A7F99C523DE857000205919 /* Animations.xcdatamodeld */,
 				7A7F99CC23DE857100205919 /* Preview Content */,
@@ -244,6 +249,15 @@
 				7A7F9A3123E651FF00205919 /* MissionDetail.swift */,
 			);
 			path = MoonShotSupport;
+			sourceTree = "<group>";
+		};
+		7A7F9A3623E7B1D900205919 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F9A3723E7B1FD00205919 /* customPaths.swift */,
+				7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */,
+			);
+			path = Drawing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,8 +406,10 @@
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
 				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
 				7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */,
+				7A7F9A3A23E7BC3000205919 /* pathVSshapes.swift in Sources */,
 				7A7F9A2E23E618F900205919 /* Buddle_Decodable.swift in Sources */,
 				7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */,
+				7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */,
 				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
 				7A7F9A2C23E616CA00205919 /* Astronauts.swift in Sources */,
 				7A7F9A1623E1D91800205919 /* IExpense.swift in Sources */,
