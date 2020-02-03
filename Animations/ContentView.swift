@@ -134,6 +134,9 @@ struct ContentView: View {
                         NavigationLink(destination: pathVSshapes()) {
                             Text("customize path stuct for future")
                         }
+                        NavigationLink(destination: pathStrokeBorder()) {
+                            Text("add strokeBorder in custom path")
+                        }
                     }
                 }
             }
