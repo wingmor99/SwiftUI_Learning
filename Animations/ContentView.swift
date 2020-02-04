@@ -137,6 +137,12 @@ struct ContentView: View {
                         NavigationLink(destination: pathStrokeBorder()) {
                             Text("add strokeBorder in custom path")
                         }
+                        NavigationLink(destination: TransformingShapes()) {
+                            Text("CGAffineTransform and even-odd fills")
+                        }
+                        NavigationLink(destination: PerformanceRendering()) {
+                            Text("Add the drawingGroup when the path run slow")
+                        }
                     }
                 }
             }

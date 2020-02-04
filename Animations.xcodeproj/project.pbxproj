@@ -44,6 +44,8 @@
 		7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3723E7B1FD00205919 /* customPaths.swift */; };
 		7A7F9A3A23E7BC3000205919 /* pathVSshapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */; };
 		7A7F9A3C23E8D5F900205919 /* pathStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */; };
+		7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */; };
+		7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		7A7F9A3723E7B1FD00205919 /* customPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPaths.swift; sourceTree = "<group>"; };
 		7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathVSshapes.swift; sourceTree = "<group>"; };
 		7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathStrokeBorder.swift; sourceTree = "<group>"; };
+		7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingShapes.swift; sourceTree = "<group>"; };
+		7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceRendering.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +263,8 @@
 				7A7F9A3723E7B1FD00205919 /* customPaths.swift */,
 				7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */,
 				7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */,
+				7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */,
+				7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -399,7 +405,9 @@
 				7A7F99FB23DF3FED00205919 /* Headtext.swift in Sources */,
 				7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */,
 				7A7F99F523DE859800205919 /* Button1.swift in Sources */,
+				7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
+				7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */,
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
