@@ -171,6 +171,9 @@ struct ContentView: View {
                         NavigationLink(destination: receivingURL()) {
                             Text("Request and receive data from URL")
                         }
+                        NavigationLink(destination: disableForm()) {
+                            Text("disable form by condition")
+                        }
                     }
                 }
             }
