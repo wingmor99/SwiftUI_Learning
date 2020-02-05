@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C523EB12C700F978CC /* SpecialEffect.swift */; };
 		7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C123DE857000205919 /* AppDelegate.swift */; };
 		7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C323DE857000205919 /* SceneDelegate.swift */; };
 		7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C523DE857000205919 /* Animations.xcdatamodeld */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1960C523EB12C700F978CC /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
 		7A7F99BE23DE857000205919 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F99C123DE857000205919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F99C323DE857000205919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				7A7F9A3923E7BC3000205919 /* pathVSshapes.swift */,
 				7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */,
 				7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */,
+				7A1960C523EB12C700F978CC /* SpecialEffect.swift */,
 				7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */,
 			);
 			path = Drawing;
@@ -429,6 +432,7 @@
 				7A7F9A2123E6139200205919 /* HierarchicalCodable.swift in Sources */,
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
+				7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
 				7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */,
 				7A7F9A1023E0F76100205919 /* SwipDelete.swift in Sources */,

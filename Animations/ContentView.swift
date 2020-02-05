@@ -148,6 +148,7 @@ struct ContentView: View {
             }
             .navigationBarTitle(Text("Hacking with SwiftUI"),displayMode: .inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
