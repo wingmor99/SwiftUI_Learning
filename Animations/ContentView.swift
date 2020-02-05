@@ -174,6 +174,9 @@ struct ContentView: View {
                         NavigationLink(destination: disableForm()) {
                             Text("disable form by condition")
                         }
+                        NavigationLink(destination: rakingOrderDetails()) {
+                            Text("Cupcake order project")
+                        }
                     }
                 }
             }

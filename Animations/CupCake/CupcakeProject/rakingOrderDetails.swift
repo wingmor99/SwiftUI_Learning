@@ -6,6 +6,8 @@
 //  Copyright © 2020 Jinchao Hou. All rights reserved.
 //
 
+// https://www.hackingwithswift.com/books/ios-swiftui/checking-for-a-valid-address
+
 import SwiftUI
 
 struct rakingOrderDetails: View {
