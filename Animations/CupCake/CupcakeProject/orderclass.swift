@@ -38,10 +38,10 @@ class Order: ObservableObject, Codable {
     
     var hasValidAddress: Bool {
         if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
-            return false
+            return true
         }
 
-        return true
+        return false
     }
     
     var cost: Double {
