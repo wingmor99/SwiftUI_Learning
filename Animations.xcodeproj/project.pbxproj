@@ -14,6 +14,9 @@
 		7A1960CF23EB50BA00F978CC /* addCodeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960CE23EB50BA00F978CC /* addCodeable.swift */; };
 		7A1960D123EB56C200F978CC /* receivingURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D023EB56C200F978CC /* receivingURL.swift */; };
 		7A1960D323EB5DCD00F978CC /* disableForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D223EB5DCD00F978CC /* disableForm.swift */; };
+		7A1960D523EB738E00F978CC /* rakingOrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D423EB738E00F978CC /* rakingOrderDetails.swift */; };
+		7A1960D823EB77A700F978CC /* orderclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D723EB77A700F978CC /* orderclass.swift */; };
+		7A1960DA23EB77DF00F978CC /* AdressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D923EB77DF00F978CC /* AdressView.swift */; };
 		7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C123DE857000205919 /* AppDelegate.swift */; };
 		7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C323DE857000205919 /* SceneDelegate.swift */; };
 		7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C523DE857000205919 /* Animations.xcdatamodeld */; };
@@ -80,6 +83,9 @@
 		7A1960CE23EB50BA00F978CC /* addCodeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCodeable.swift; sourceTree = "<group>"; };
 		7A1960D023EB56C200F978CC /* receivingURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receivingURL.swift; sourceTree = "<group>"; };
 		7A1960D223EB5DCD00F978CC /* disableForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disableForm.swift; sourceTree = "<group>"; };
+		7A1960D423EB738E00F978CC /* rakingOrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rakingOrderDetails.swift; sourceTree = "<group>"; };
+		7A1960D723EB77A700F978CC /* orderclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderclass.swift; sourceTree = "<group>"; };
+		7A1960D923EB77DF00F978CC /* AdressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressView.swift; sourceTree = "<group>"; };
 		7A7F99BE23DE857000205919 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F99C123DE857000205919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F99C323DE857000205919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,8 +164,19 @@
 				7A1960CE23EB50BA00F978CC /* addCodeable.swift */,
 				7A1960D023EB56C200F978CC /* receivingURL.swift */,
 				7A1960D223EB5DCD00F978CC /* disableForm.swift */,
+				7A1960D623EB778200F978CC /* CupcakeProject */,
 			);
 			path = CupCake;
+			sourceTree = "<group>";
+		};
+		7A1960D623EB778200F978CC /* CupcakeProject */ = {
+			isa = PBXGroup;
+			children = (
+				7A1960D423EB738E00F978CC /* rakingOrderDetails.swift */,
+				7A1960D723EB77A700F978CC /* orderclass.swift */,
+				7A1960D923EB77DF00F978CC /* AdressView.swift */,
+			);
+			path = CupcakeProject;
 			sourceTree = "<group>";
 		};
 		7A7F99B523DE857000205919 = {
@@ -439,6 +456,7 @@
 				7A1960CC23EB466900F978CC /* DrawSpirograph.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
 				7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */,
+				7A1960DA23EB77DF00F978CC /* AdressView.swift in Sources */,
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
 				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
@@ -447,6 +465,7 @@
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
+				7A1960D823EB77A700F978CC /* orderclass.swift in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
 				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
 				7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */,
@@ -464,6 +483,7 @@
 				7A7F9A2123E6139200205919 /* HierarchicalCodable.swift in Sources */,
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
+				7A1960D523EB738E00F978CC /* rakingOrderDetails.swift in Sources */,
 				7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
 				7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */,
