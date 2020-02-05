@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C523EB12C700F978CC /* SpecialEffect.swift */; };
+		7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C723EB1A0700F978CC /* AnimatiingShapes.swift */; };
 		7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C123DE857000205919 /* AppDelegate.swift */; };
 		7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C323DE857000205919 /* SceneDelegate.swift */; };
 		7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C523DE857000205919 /* Animations.xcdatamodeld */; };
@@ -68,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		7A1960C523EB12C700F978CC /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
+		7A1960C723EB1A0700F978CC /* AnimatiingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatiingShapes.swift; sourceTree = "<group>"; };
 		7A7F99BE23DE857000205919 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F99C123DE857000205919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F99C323DE857000205919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */,
 				7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */,
 				7A1960C523EB12C700F978CC /* SpecialEffect.swift */,
+				7A1960C723EB1A0700F978CC /* AnimatiingShapes.swift */,
 				7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */,
 			);
 			path = Drawing;
@@ -413,6 +416,7 @@
 				7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */,
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
+				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,

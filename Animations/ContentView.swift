@@ -143,6 +143,12 @@ struct ContentView: View {
                         NavigationLink(destination: PerformanceRendering()) {
                             Text("Add the drawingGroup when the path run slow")
                         }
+                        NavigationLink(destination: SpecialEffect()) {
+                            Text("ColorMultiply and saturation")
+                        }
+                        NavigationLink(destination: AnimatiingShapes()) {
+                            Text("AnimatableData to add animation for custom shapes")
+                        }
                     }
                 }
             }
