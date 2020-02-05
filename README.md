@@ -2,6 +2,6 @@
 SwiftUI Learning 
 
 
-Learning from https://www.hackingwithswift.com/quick-start/swiftui
+Learning fromhttps://www.hackingwithswift.com/books/ios-swiftui
 
 This is a fascinating resources to learn swiftUI

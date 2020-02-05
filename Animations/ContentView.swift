@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var showiexpense = false
     @State private var showmoonshot = false
     @State private var showDraw = false
+    @State private var showCupcake = true
     
     var body: some View {
         NavigationView {
@@ -148,6 +149,27 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: AnimatiingShapes()) {
                             Text("AnimatableData to add animation for custom shapes")
+                        }
+                        NavigationLink(destination: complexanimating()) {
+                            Text("Using animatablePair to animate complex pair")
+                        }
+                        NavigationLink(destination: DrawSpirograph()) {
+                            Text("Complex graph create by path")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack{
+                        Text("Cupcake")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showCupcake.toggle()
+                }
+                ){
+                    if self.showCupcake {
+                        NavigationLink(destination: receivingURL()) {
+                            Text("Request and receive data from URL")
                         }
                     }
                 }
