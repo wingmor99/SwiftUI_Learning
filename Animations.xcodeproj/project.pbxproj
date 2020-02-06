@@ -18,6 +18,11 @@
 		7A1960D823EB77A700F978CC /* orderclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D723EB77A700F978CC /* orderclass.swift */; };
 		7A1960DA23EB77DF00F978CC /* AdressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960D923EB77DF00F978CC /* AdressView.swift */; };
 		7A26AE1823EB7A81004D96DE /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE1723EB7A81004D96DE /* CheckOutView.swift */; };
+		7A26AE1B23EC51EA004D96DE /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE1A23EC51EA004D96DE /* CustomBinding.swift */; };
+		7A26AE1D23EC55C3004D96DE /* multipleoptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE1C23EC55C3004D96DE /* multipleoptions.swift */; };
+		7A26AE1F23EC5BDC004D96DE /* CoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE1E23EC5BDC004D96DE /* CoreImage.swift */; };
+		7A26AE2123EC6A7B004D96DE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2023EC6A7B004D96DE /* ImagePicker.swift */; };
+		7A26AE2323EC93F2004D96DE /* WrapUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2223EC93F2004D96DE /* WrapUIViewController.swift */; };
 		7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C123DE857000205919 /* AppDelegate.swift */; };
 		7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C323DE857000205919 /* SceneDelegate.swift */; };
 		7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C523DE857000205919 /* Animations.xcdatamodeld */; };
@@ -88,6 +93,11 @@
 		7A1960D723EB77A700F978CC /* orderclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderclass.swift; sourceTree = "<group>"; };
 		7A1960D923EB77DF00F978CC /* AdressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressView.swift; sourceTree = "<group>"; };
 		7A26AE1723EB7A81004D96DE /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		7A26AE1A23EC51EA004D96DE /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
+		7A26AE1C23EC55C3004D96DE /* multipleoptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipleoptions.swift; sourceTree = "<group>"; };
+		7A26AE1E23EC5BDC004D96DE /* CoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImage.swift; sourceTree = "<group>"; };
+		7A26AE2023EC6A7B004D96DE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7A26AE2223EC93F2004D96DE /* WrapUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapUIViewController.swift; sourceTree = "<group>"; };
 		7A7F99BE23DE857000205919 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F99C123DE857000205919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F99C323DE857000205919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +192,18 @@
 			path = CupcakeProject;
 			sourceTree = "<group>";
 		};
+		7A26AE1923EC508B004D96DE /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				7A26AE1A23EC51EA004D96DE /* CustomBinding.swift */,
+				7A26AE1C23EC55C3004D96DE /* multipleoptions.swift */,
+				7A26AE1E23EC5BDC004D96DE /* CoreImage.swift */,
+				7A26AE2223EC93F2004D96DE /* WrapUIViewController.swift */,
+				7A26AE2023EC6A7B004D96DE /* ImagePicker.swift */,
+			);
+			path = Instafilter;
+			sourceTree = "<group>";
+		};
 		7A7F99B523DE857000205919 = {
 			isa = PBXGroup;
 			children = (
@@ -214,8 +236,9 @@
 				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
 				7A7F9A3623E7B1D900205919 /* Drawing */,
 				7A1960CD23EB508D00F978CC /* CupCake */,
-				7A7F99CA23DE857100205919 /* Assets.xcassets */,
+				7A26AE1923EC508B004D96DE /* Instafilter */,
 				7A7F99D223DE857100205919 /* Info.plist */,
+				7A7F99CA23DE857100205919 /* Assets.xcassets */,
 				7A7F99C523DE857000205919 /* Animations.xcdatamodeld */,
 				7A7F99CC23DE857100205919 /* Preview Content */,
 			);
@@ -463,6 +486,7 @@
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
 				7A26AE1823EB7A81004D96DE /* CheckOutView.swift in Sources */,
+				7A26AE2323EC93F2004D96DE /* WrapUIViewController.swift in Sources */,
 				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A1960CA23EB413000F978CC /* complexanimating.swift in Sources */,
@@ -474,6 +498,7 @@
 				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
 				7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */,
 				7A1960D123EB56C200F978CC /* receivingURL.swift in Sources */,
+				7A26AE1D23EC55C3004D96DE /* multipleoptions.swift in Sources */,
 				7A7F9A3A23E7BC3000205919 /* pathVSshapes.swift in Sources */,
 				7A7F9A2E23E618F900205919 /* Buddle_Decodable.swift in Sources */,
 				7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */,
@@ -485,8 +510,11 @@
 				7A7F9A1423E1D7B100205919 /* StoreInJason.swift in Sources */,
 				7A1960CF23EB50BA00F978CC /* addCodeable.swift in Sources */,
 				7A7F9A2123E6139200205919 /* HierarchicalCodable.swift in Sources */,
+				7A26AE2123EC6A7B004D96DE /* ImagePicker.swift in Sources */,
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
+				7A26AE1B23EC51EA004D96DE /* CustomBinding.swift in Sources */,
+				7A26AE1F23EC5BDC004D96DE /* CoreImage.swift in Sources */,
 				7A1960D523EB738E00F978CC /* rakingOrderDetails.swift in Sources */,
 				7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,

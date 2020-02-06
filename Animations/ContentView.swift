@@ -15,7 +15,8 @@ struct ContentView: View {
     @State private var showiexpense = false
     @State private var showmoonshot = false
     @State private var showDraw = false
-    @State private var showCupcake = true
+    @State private var showCupcake = false
+    @State private var showinstafilter = true
     
     var body: some View {
         NavigationView {
@@ -176,6 +177,29 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: rakingOrderDetails()) {
                             Text("Cupcake order project")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack{
+                        Text("instafilter")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showinstafilter.toggle()
+                }){
+                    if self.showinstafilter {
+                        NavigationLink(destination: CustomBinding()) {
+                            Text("How to customize binding @State")
+                        }
+                        NavigationLink(destination: multipleoptions()) {
+                            Text("Action Sheet")
+                        }
+                        NavigationLink(destination: UsingCoreImage()) {
+                            Text("Core Image")
+                        }
+                        NavigationLink(destination: WrapUIViewController()) {
+                            Text("Pick image from photo by UIViewController")
                         }
                     }
                 }
