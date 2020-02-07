@@ -6,6 +6,8 @@
 //  Copyright © 2020 Jinchao Hou. All rights reserved.
 //
 
+// https://www.hackingwithswift.com/books/ios-swiftui/how-to-save-images-to-the-users-photo-library
+
 import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
