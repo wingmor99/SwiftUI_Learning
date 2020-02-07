@@ -201,6 +201,9 @@ struct ContentView: View {
                         NavigationLink(destination: WrapUIViewController()) {
                             Text("Pick image from photo by UIViewController")
                         }
+                        NavigationLink(destination: instafilterProject()) {
+                            Text("Instafilter image project")
+                        }
                     }
                 }
             }

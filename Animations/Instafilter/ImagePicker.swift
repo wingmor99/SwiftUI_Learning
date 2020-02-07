@@ -10,11 +10,11 @@
 
 import SwiftUI
 
-struct ImagePicker: UIViewControllerRepresentable {
+struct ImagePicker_learn: UIViewControllerRepresentable {
     class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-        var parent: ImagePicker
+        var parent: ImagePicker_learn
         
-        init(_ parent: ImagePicker) {
+        init(_ parent: ImagePicker_learn) {
             self.parent = parent
         }
         
@@ -34,13 +34,13 @@ struct ImagePicker: UIViewControllerRepresentable {
         Coordinator(self)
     }
     
-    func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
+    func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker_learn>) -> UIImagePickerController {
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator
         return picker
     }
     
-    func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {
+    func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker_learn>) {
         
     }
     

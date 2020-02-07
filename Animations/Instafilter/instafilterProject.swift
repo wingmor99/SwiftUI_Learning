@@ -7,10 +7,13 @@
 //
 
 import SwiftUI
-
+ 
 struct instafilterProject: View {
     @State private var image: Image?
     @State private var filterIntensity = 0.5
+    
+    @State private var showingImagePicker = false
+    @State private var inputImage: UIImage?
     
     var body: some View {
         NavigationView{
@@ -30,7 +33,7 @@ struct instafilterProject: View {
                     }
                 }
                 .onTapGesture {
-                    //
+                    self.showingImagePicker = true
                 }
                 HStack {
                     Text("Intensity")
@@ -51,7 +54,14 @@ struct instafilterProject: View {
             }
             .padding([.horizontal, .bottom])
         .navigationBarTitle("Instafilter")
+            .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
+                ImagePicker_project(image: self.$inputImage)
+            }
         }
+    }
+    func loadImage() {
+        guard let inputImage = inputImage else { return }
+        image = Image(uiImage: inputImage)
     }
 }
 

@@ -34,7 +34,7 @@ struct WrapUIViewController: View {
             }
             
             .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
-                ImagePicker(image: self.$inputImage)
+                ImagePicker_learn(image: self.$inputImage)
             }
         }
     }
