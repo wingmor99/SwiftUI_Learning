@@ -19,6 +19,7 @@ struct instafilterProject: View {
     @State private var showingFilterShhet = false
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
+    @State private var processedImage: UIImage?
     
     @State var currentFilter: CIFilter = CIFilter.sepiaTone()
     let context = CIContext()
@@ -66,7 +67,19 @@ struct instafilterProject: View {
                     }
                     Spacer()
                     Button("Save") {
+                        guard let processedImage = self.processedImage else {return}
                         
+                        let imageSaver = ImageSaver_Project()
+                        
+                        imageSaver.successHandler = {
+                            print("Success!")
+                        }
+                        
+                        imageSaver.errorHandler = {
+                            print("Oops: \($0.localizedDescription)")
+                        }
+                        
+                        imageSaver.writeToPhotoAlbum(image: processedImage)
                     }
                 }
                 
@@ -118,6 +131,7 @@ struct instafilterProject: View {
         if let cgimg = context.createCGImage(outputImage, from: outputImage.extent) {
             let uiImage = UIImage(cgImage: cgimg)
             image = Image(uiImage: uiImage)
+            processedImage = uiImage
         }
     }
     
