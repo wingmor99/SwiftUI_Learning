@@ -204,6 +204,9 @@ struct ContentView: View {
                         NavigationLink(destination: instafilterProject()) {
                             Text("Instafilter image project")
                         }
+                        NavigationLink(destination: MapView()) {
+                            Text("using MapKit")
+                        }
                     }
                 }
             }
