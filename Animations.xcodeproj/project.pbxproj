@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A13325423EE52ED00B93AFA /* writeFileinDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13325323EE52ED00B93AFA /* writeFileinDocuments.swift */; };
+		7A13325623EE56B400B93AFA /* switchViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13325523EE56B400B93AFA /* switchViewStates.swift */; };
 		7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C523EB12C700F978CC /* SpecialEffect.swift */; };
 		7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C723EB1A0700F978CC /* AnimatiingShapes.swift */; };
 		7A1960CA23EB413000F978CC /* complexanimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1960C923EB413000F978CC /* complexanimating.swift */; };
@@ -87,6 +88,7 @@
 
 /* Begin PBXFileReference section */
 		7A13325323EE52ED00B93AFA /* writeFileinDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeFileinDocuments.swift; sourceTree = "<group>"; };
+		7A13325523EE56B400B93AFA /* switchViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchViewStates.swift; sourceTree = "<group>"; };
 		7A1960C523EB12C700F978CC /* SpecialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffect.swift; sourceTree = "<group>"; };
 		7A1960C723EB1A0700F978CC /* AnimatiingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatiingShapes.swift; sourceTree = "<group>"; };
 		7A1960C923EB413000F978CC /* complexanimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = complexanimating.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */,
 				7A13325323EE52ED00B93AFA /* writeFileinDocuments.swift */,
+				7A13325523EE56B400B93AFA /* switchViewStates.swift */,
 			);
 			path = Project14_BucketList;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 				7A7F9A1423E1D7B100205919 /* StoreInJason.swift in Sources */,
 				7A1960CF23EB50BA00F978CC /* addCodeable.swift in Sources */,
 				7A7F9A2123E6139200205919 /* HierarchicalCodable.swift in Sources */,
+				7A13325623EE56B400B93AFA /* switchViewStates.swift in Sources */,
 				7A26AE2123EC6A7B004D96DE /* ImagePicker.swift in Sources */,
 				7A7F99C923DE857000205919 /* ContentView.swift in Sources */,
 				7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */,
