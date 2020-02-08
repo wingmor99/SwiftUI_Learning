@@ -71,6 +71,8 @@
 		7A7F9A3C23E8D5F900205919 /* pathStrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */; };
 		7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */; };
 		7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */; };
+		7ABF594B23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */; };
+		7ABF594D23EF528A00A9D9BD /* EditVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +163,8 @@
 		7A7F9A3B23E8D5F900205919 /* pathStrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathStrokeBorder.swift; sourceTree = "<group>"; };
 		7A7F9A3D23EA066F00205919 /* TransformingShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingShapes.swift; sourceTree = "<group>"; };
 		7A7F9A3F23EA0D0000205919 /* PerformanceRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceRendering.swift; sourceTree = "<group>"; };
+		7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVeiw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				7A6115B423EF385900017540 /* ProjectMapView.swift */,
+				7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */,
+				7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */,
 			);
 			path = BucketListSupportView;
 			sourceTree = "<group>";
@@ -532,6 +538,7 @@
 				7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */,
 				7A13325423EE52ED00B93AFA /* writeFileinDocuments.swift in Sources */,
 				7A1960CC23EB466900F978CC /* DrawSpirograph.swift in Sources */,
+				7ABF594D23EF528A00A9D9BD /* EditVeiw.swift in Sources */,
 				7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
 				7A26AE2823ECEE09004D96DE /* ImagePicker_Project.swift in Sources */,
@@ -544,6 +551,7 @@
 				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A1960CA23EB413000F978CC /* complexanimating.swift in Sources */,
+				7ABF594B23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
