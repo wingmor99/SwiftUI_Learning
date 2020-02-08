@@ -74,6 +74,7 @@
 		7ABF594B23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */; };
 		7ABF594D23EF528A00A9D9BD /* EditVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */; };
 		7ABF594F23EF625000A9D9BD /* Result_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF594E23EF625000A9D9BD /* Result_15.swift */; };
+		7ABF595123EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,7 @@
 		7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVeiw.swift; sourceTree = "<group>"; };
 		7ABF594E23EF625000A9D9BD /* Result_15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result_15.swift; sourceTree = "<group>"; };
+		7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			children = (
 				7A6115B423EF385900017540 /* ProjectMapView.swift */,
 				7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */,
+				7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */,
 				7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */,
 				7ABF594E23EF625000A9D9BD /* Result_15.swift */,
 			);
@@ -594,6 +597,7 @@
 				7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */,
 				7A7F9A3023E61BF000205919 /* Mission.swift in Sources */,
 				7A7F99F923DF3B1700205919 /* animationBingingButton.swift in Sources */,
+				7ABF595123EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
