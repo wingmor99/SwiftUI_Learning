@@ -210,6 +210,9 @@ struct ContentView: View {
                         NavigationLink(destination: UsingTouchIDandFaceID()) {
                             Text("Using FaceID")
                         }
+                        NavigationLink(destination: BucketList()) {
+                            Text("Project")
+                        }
                     }
                 }
             }
