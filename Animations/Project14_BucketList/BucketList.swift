@@ -59,7 +59,7 @@ struct BucketList: View {
                 EditVeiw(placemark: self.selectedPlace!)
             }
         }
-    .onAppear(perform: loadData)
+        .onAppear(perform: loadData)
     }
     
     // read data into document
