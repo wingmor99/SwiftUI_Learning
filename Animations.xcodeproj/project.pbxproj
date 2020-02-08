@@ -28,6 +28,7 @@
 		7A26AE2623ECE960004D96DE /* instafilterProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2523ECE960004D96DE /* instafilterProject.swift */; };
 		7A26AE2823ECEE09004D96DE /* ImagePicker_Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */; };
 		7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */; };
+		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
 		7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C123DE857000205919 /* AppDelegate.swift */; };
 		7A7F99C423DE857000205919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C323DE857000205919 /* SceneDelegate.swift */; };
 		7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F99C523DE857000205919 /* Animations.xcdatamodeld */; };
@@ -108,6 +109,7 @@
 		7A26AE2523ECE960004D96DE /* instafilterProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instafilterProject.swift; sourceTree = "<group>"; };
 		7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker_Project.swift; sourceTree = "<group>"; };
 		7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableTypes.swift; sourceTree = "<group>"; };
+		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7A7F99BE23DE857000205919 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7F99C123DE857000205919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A7F99C323DE857000205919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */,
 				7A13325323EE52ED00B93AFA /* writeFileinDocuments.swift */,
 				7A13325523EE56B400B93AFA /* switchViewStates.swift */,
+				7A77B66C23EF10DC00B1F2E4 /* MapView.swift */,
 			);
 			path = Project14_BucketList;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */,
 				7A13325423EE52ED00B93AFA /* writeFileinDocuments.swift in Sources */,
 				7A1960CC23EB466900F978CC /* DrawSpirograph.swift in Sources */,
+				7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
 				7A26AE2823ECEE09004D96DE /* ImagePicker_Project.swift in Sources */,
 				7A7F9A4023EA0D0000205919 /* PerformanceRendering.swift in Sources */,
