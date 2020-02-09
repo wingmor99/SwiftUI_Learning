@@ -17,6 +17,7 @@ struct BucketList: View {
     @State private var showingPlaceDetails = false
     @State private var showingEdit = false
     @State private var isUnlocked = false
+    @State private var showingDelete = false
     
     var body: some View {
         ZStack {
@@ -31,6 +32,15 @@ struct BucketList: View {
                 VStack{
                     Spacer()
                     HStack{
+                        Button(action: {
+                            self.showingDelete = true
+                        }) {
+                            Text("All Places")
+                                .background(Color.black.opacity(0.75))
+                                .foregroundColor(.white)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding()
+                        }
                         Spacer()
                         Button(action: {
                             let newLocation = CodableMKPointAnnotation()
@@ -70,6 +80,9 @@ struct BucketList: View {
             if self.selectedPlace != nil {
                 EditVeiw(placemark: self.selectedPlace!)
             }
+        }
+        .sheet(isPresented: $showingDelete) {
+            PlacesListView(locations: self.$locations)
         }
         .onAppear(perform: loadData)
     }
