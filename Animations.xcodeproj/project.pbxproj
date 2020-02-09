@@ -28,6 +28,7 @@
 		7A26AE2623ECE960004D96DE /* instafilterProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2523ECE960004D96DE /* instafilterProject.swift */; };
 		7A26AE2823ECEE09004D96DE /* ImagePicker_Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */; };
 		7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */; };
+		7A26B9B923EF970E0072EA78 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26B9B823EF970E0072EA78 /* PlacesListView.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -116,6 +117,7 @@
 		7A26AE2523ECE960004D96DE /* instafilterProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instafilterProject.swift; sourceTree = "<group>"; };
 		7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker_Project.swift; sourceTree = "<group>"; };
 		7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableTypes.swift; sourceTree = "<group>"; };
+		7A26B9B823EF970E0072EA78 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				7ABF594A23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift */,
 				7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */,
 				7ABF594C23EF528A00A9D9BD /* EditVeiw.swift */,
+				7A26B9B823EF970E0072EA78 /* PlacesListView.swift */,
 				7ABF594E23EF625000A9D9BD /* Result_15.swift */,
 			);
 			path = BucketListSupportView;
@@ -593,6 +596,7 @@
 				7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
 				7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */,
+				7A26B9B923EF970E0072EA78 /* PlacesListView.swift in Sources */,
 				7A7F9A1023E0F76100205919 /* SwipDelete.swift in Sources */,
 				7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */,
 				7A7F9A3023E61BF000205919 /* Mission.swift in Sources */,

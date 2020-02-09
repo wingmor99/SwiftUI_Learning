@@ -15,8 +15,9 @@ struct BucketList: View {
     @State private var locations = [CodableMKPointAnnotation]()
     @State private var selectedPlace: MKPointAnnotation?
     @State private var showingPlaceDetails = false
-    @State private var showingEdit = false
+    @State private var showingSheet = false
     @State private var isUnlocked = false
+    @State private var showingSheetNumber = 1
     
     var body: some View {
         ZStack {
@@ -31,6 +32,16 @@ struct BucketList: View {
                 VStack{
                     Spacer()
                     HStack{
+                        Button(action: {
+                            self.showingSheetNumber = 1
+                            self.showingSheet = true
+                        }) {
+                            Text("All Places")
+                                .background(Color.black.opacity(0.75))
+                                .foregroundColor(.white)
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                                .padding()
+                        }
                         Spacer()
                         Button(action: {
                             let newLocation = CodableMKPointAnnotation()
@@ -39,7 +50,8 @@ struct BucketList: View {
                             self.locations.append(newLocation)
                             
                             self.selectedPlace = newLocation
-                            self.showingEdit = true
+                            self.showingSheet = true
+                            self.showingSheetNumber = 2
                         }) {
                             Image(systemName: "plus")
                         }
@@ -60,15 +72,20 @@ struct BucketList: View {
                 .foregroundColor(.white)
                 .clipShape(Capsule())
             }
-        }
+            }
         .alert(isPresented: $showingPlaceDetails) {
             Alert(title: Text(selectedPlace?.title ?? "Unknown"), message: Text(selectedPlace?.subtitle ?? "Missing place information."), primaryButton: .default(Text("OK")), secondaryButton: .default(Text("Edit")) {
-                self.showingEdit = true
+                self.showingSheet = true
+                self.showingSheetNumber = 2
             })
         }
-        .sheet(isPresented: $showingEdit, onDismiss: saveData) {
-            if self.selectedPlace != nil {
-                EditVeiw(placemark: self.selectedPlace!)
+        .sheet(isPresented: $showingSheet, onDismiss: saveData) {
+            if self.showingSheetNumber == 1 {
+                PlacesListView(locations: self.$locations)
+            } else if self.showingSheetNumber == 2 {
+                if self.selectedPlace != nil {
+                    EditVeiw(placemark: self.selectedPlace!)
+                }
             }
         }
         .onAppear(perform: loadData)
