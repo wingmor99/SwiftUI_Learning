@@ -30,6 +30,7 @@
 		7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */; };
 		7A26B9B923EF970E0072EA78 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26B9B823EF970E0072EA78 /* PlacesListView.swift */; };
 		7A5E266E23F07F84000D9CF5 /* identifyViewsWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */; };
+		7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -120,6 +121,7 @@
 		7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableTypes.swift; sourceTree = "<group>"; };
 		7A26B9B823EF970E0072EA78 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
 		7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyViewsWithLabel.swift; sourceTree = "<group>"; };
+		7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAccessibility.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */,
+				7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */,
 			);
 			path = Project15_Accessibility;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 				7A13325423EE52ED00B93AFA /* writeFileinDocuments.swift in Sources */,
 				7ABF594F23EF625000A9D9BD /* Result_15.swift in Sources */,
 				7A1960CC23EB466900F978CC /* DrawSpirograph.swift in Sources */,
+				7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */,
 				7ABF594D23EF528A00A9D9BD /* EditVeiw.swift in Sources */,
 				7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
