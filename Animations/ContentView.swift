@@ -205,7 +205,13 @@ struct ContentView: View {
                             Text("Instafilter image project")
                         }
                         NavigationLink(destination: MapView()) {
-                            Text("using MapKit")
+                            Text("using MapKit with Coordinator")
+                        }
+                        NavigationLink(destination: UsingTouchIDandFaceID()) {
+                            Text("Using FaceID")
+                        }
+                        NavigationLink(destination: BucketList()) {
+                            Text("Project")
                         }
                     }
                 }
