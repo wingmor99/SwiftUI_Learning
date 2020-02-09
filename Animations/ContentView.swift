@@ -229,6 +229,12 @@ struct ContentView: View {
                         NavigationLink(destination: identifyViewsWithLabel()) {
                             Text("add accessibility")
                         }
+                        NavigationLink(destination: GroupAccessibility()) {
+                            Text("Grouping the accessibility")
+                        }
+                        NavigationLink(destination: ReadingValusOfControls()) {
+                            Text("reading the values of controls")
+                        }
                     }
                 }
             }
