@@ -251,6 +251,9 @@ struct ContentView: View {
                         NavigationLink(destination: ReadingCustomValus()) {
                             Text("Reading customvalue by EnvironmentObject")
                         }
+                        NavigationLink(destination: TabAndTabItems()) {
+                            Text("TabView and tabItem")
+                        }
                     }
                 }
             }
