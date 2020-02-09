@@ -16,7 +16,8 @@ struct ContentView: View {
     @State private var showmoonshot = false
     @State private var showDraw = false
     @State private var showCupcake = false
-    @State private var showinstafilter = true
+    @State private var showinstafilter = false
+    @State private var showingaccessibility = true
     
     var body: some View {
         NavigationView {
@@ -212,6 +213,21 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: BucketList()) {
                             Text("Project")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack {
+                        Text("accessibility")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showingaccessibility = true
+                    }
+                ){
+                    if self.showingaccessibility {
+                        NavigationLink(destination: identifyViewsWithLabel()) {
+                            Text("add accessibility")
                         }
                     }
                 }
