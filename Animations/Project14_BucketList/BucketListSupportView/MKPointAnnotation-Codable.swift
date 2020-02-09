@@ -24,8 +24,8 @@ class CodableMKPointAnnotation: MKPointAnnotation, Codable {
         super.init()
         
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        title = try container.decode(String.self, forKey: .title)
-        subtitle = try container.decode(String.self, forKey: .subtitle)
+        title = try container.decodeIfPresent(String.self, forKey: .title)
+        subtitle = try container.decodeIfPresent(String.self, forKey: .subtitle)
         
         let latitude = try container.decode(CLLocationDegrees.self, forKey: .latitude)
         let longitude = try container.decode(CLLocationDegrees.self, forKey: .longitude)
