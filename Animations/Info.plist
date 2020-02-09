@@ -4,6 +4,8 @@
 <dict>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>we need to lock your data</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

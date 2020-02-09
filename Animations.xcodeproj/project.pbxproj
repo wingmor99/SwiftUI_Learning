@@ -32,6 +32,7 @@
 		7A5E266E23F07F84000D9CF5 /* identifyViewsWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */; };
 		7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */; };
 		7A5E267223F084B7000D9CF5 /* ReadingValusOfControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */; };
+		7A5E267523F08ED1000D9CF5 /* ReadingCustomValus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267423F08ED1000D9CF5 /* ReadingCustomValus.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -124,6 +125,7 @@
 		7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyViewsWithLabel.swift; sourceTree = "<group>"; };
 		7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAccessibility.swift; sourceTree = "<group>"; };
 		7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingValusOfControls.swift; sourceTree = "<group>"; };
+		7A5E267423F08ED1000D9CF5 /* ReadingCustomValus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingCustomValus.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -272,6 +274,14 @@
 			path = Project15_Accessibility;
 			sourceTree = "<group>";
 		};
+		7A5E267323F08E5F000D9CF5 /* Project16_HotProspects */ = {
+			isa = PBXGroup;
+			children = (
+				7A5E267423F08ED1000D9CF5 /* ReadingCustomValus.swift */,
+			);
+			path = Project16_HotProspects;
+			sourceTree = "<group>";
+		};
 		7A6115B323EF1FA200017540 /* BucketListSupportView */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,14 +324,15 @@
 				7A7F99FE23DF44A300205919 /* Animations */,
 				7A7F9A0E23E0F73800205919 /* iExpense */,
 				7A7F9A1923E5CAD700205919 /* MoonShot */,
-				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
 				7A7F9A3623E7B1D900205919 /* Drawing */,
 				7A1960CD23EB508D00F978CC /* CupCake */,
 				7A26AE1923EC508B004D96DE /* Instafilter */,
-				7A7F99D223DE857100205919 /* Info.plist */,
 				7A26AE3023EE50C4004D96DE /* Project14_BucketList */,
-				7A7F99CA23DE857100205919 /* Assets.xcassets */,
 				7A5E266C23F07F60000D9CF5 /* Project15_Accessibility */,
+				7A5E267323F08E5F000D9CF5 /* Project16_HotProspects */,
+				7A7F99D223DE857100205919 /* Info.plist */,
+				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
+				7A7F99CA23DE857100205919 /* Assets.xcassets */,
 				7A7F99C523DE857000205919 /* Animations.xcdatamodeld */,
 				7A7F99CC23DE857100205919 /* Preview Content */,
 			);
@@ -574,6 +585,7 @@
 				7A1960DA23EB77DF00F978CC /* AdressView.swift in Sources */,
 				7A7F9A1823E2392E00205919 /* AddView.swift in Sources */,
 				7A7F9A2923E6169800205919 /* MoonShot.swift in Sources */,
+				7A5E267523F08ED1000D9CF5 /* ReadingCustomValus.swift in Sources */,
 				7A26AE1823EB7A81004D96DE /* CheckOutView.swift in Sources */,
 				7A26AE2323EC93F2004D96DE /* WrapUIViewController.swift in Sources */,
 				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
