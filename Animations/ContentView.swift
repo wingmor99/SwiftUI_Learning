@@ -254,6 +254,12 @@ struct ContentView: View {
                         NavigationLink(destination: TabAndTabItems()) {
                             Text("TabView and tabItem")
                         }
+                        NavigationLink(destination: UnderstandingSwiftResultType()) {
+                            Text("Understanding swift Result Type")
+                        }
+                        NavigationLink(destination: PublishingObservableObjectChanges()) {
+                            Text("Published and objectWillChange")
+                        }
                     }
                 }
             }
