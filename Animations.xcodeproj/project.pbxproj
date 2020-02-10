@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,6 +39,8 @@
 		7A5E267D23F0D705000D9CF5 /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */; };
 		7A5E267F23F0D90A000D9CF5 /* CreateContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */; };
 		7A5E268123F0DEA9000D9CF5 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */; };
+		7A5E268323F0E332000D9CF5 /* AddingSwiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */; };
+		7A5E268623F0E3F5000D9CF5 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A5E268523F0E3F5000D9CF5 /* SamplePackage */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -138,6 +140,7 @@
 		7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolation.swift; sourceTree = "<group>"; };
 		7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContextMenu.swift; sourceTree = "<group>"; };
 		7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackage.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -198,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5E268623F0E3F5000D9CF5 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */,
 				7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */,
 				7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */,
+				7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */,
 			);
 			path = Project16_HotProspects;
 			sourceTree = "<group>";
@@ -469,6 +474,9 @@
 			dependencies = (
 			);
 			name = Animations;
+			packageProductDependencies = (
+				7A5E268523F0E3F5000D9CF5 /* SamplePackage */,
+			);
 			productName = Animations;
 			productReference = 7A7F99BE23DE857000205919 /* Animations.app */;
 			productType = "com.apple.product-type.application";
@@ -541,6 +549,9 @@
 				Base,
 			);
 			mainGroup = 7A7F99B523DE857000205919;
+			packageReferences = (
+				7A5E268423F0E3F5000D9CF5 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = 7A7F99BF23DE857000205919 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +607,7 @@
 				7A1960CC23EB466900F978CC /* DrawSpirograph.swift in Sources */,
 				7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */,
 				7ABF594D23EF528A00A9D9BD /* EditVeiw.swift in Sources */,
+				7A5E268323F0E332000D9CF5 /* AddingSwiftPackage.swift in Sources */,
 				7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */,
 				7A5E267B23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift in Sources */,
 				7A7F9A1F23E60FB400205919 /* ScrollingView.swift in Sources */,
@@ -982,6 +994,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A5E268423F0E3F5000D9CF5 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A5E268523F0E3F5000D9CF5 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A5E268423F0E3F5000D9CF5 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7A7F99C523DE857000205919 /* Animations.xcdatamodeld */ = {
