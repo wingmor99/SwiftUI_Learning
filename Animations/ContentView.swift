@@ -17,7 +17,8 @@ struct ContentView: View {
     @State private var showDraw = false
     @State private var showCupcake = false
     @State private var showinstafilter = false
-    @State private var showingaccessibility = true
+    @State private var showingaccessibility = false
+    @State private var showingHotProspects = true
     
     var body: some View {
         NavigationView {
@@ -222,7 +223,7 @@ struct ContentView: View {
                         Spacer()
                         Image(systemName: "plus")
                     }.onTapGesture {
-                        self.showingaccessibility = true
+                        self.showingaccessibility.toggle()
                     }
                 ){
                     if self.showingaccessibility {
@@ -234,6 +235,39 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: ReadingValusOfControls()) {
                             Text("reading the values of controls")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack{
+                        Text("Hot prospects")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showingHotProspects.toggle()
+                    }
+                ){
+                    if self.showingHotProspects {
+                        NavigationLink(destination: ReadingCustomValus()) {
+                            Text("Reading customvalue by EnvironmentObject")
+                        }
+                        NavigationLink(destination: TabAndTabItems()) {
+                            Text("TabView and tabItem")
+                        }
+                        NavigationLink(destination: UnderstandingSwiftResultType()) {
+                            Text("Understanding swift Result Type")
+                        }
+                        NavigationLink(destination: PublishingObservableObjectChanges()) {
+                            Text("Published and objectWillChange")
+                        }
+                        NavigationLink(destination: ImageInterpolation()) {
+                            Text("Image interpolation")
+                        }
+                        NavigationLink(destination: CreateContextMenu()) {
+                            Text("Context Menu")
+                        }
+                        NavigationLink(destination: LocalNotifications()) {
+                            Text("Schedule local notifications")
                         }
                     }
                 }
