@@ -263,6 +263,9 @@ struct ContentView: View {
                         NavigationLink(destination: ImageInterpolation()) {
                             Text("Image interpolation")
                         }
+                        NavigationLink(destination: CreateContextMenu()) {
+                            Text("Context Menu")
+                        }
                     }
                 }
             }

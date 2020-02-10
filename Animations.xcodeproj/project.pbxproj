@@ -37,6 +37,7 @@
 		7A5E267923F09A30000D9CF5 /* UnderstandingSwiftResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */; };
 		7A5E267B23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */; };
 		7A5E267D23F0D705000D9CF5 /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */; };
+		7A5E267F23F0D90A000D9CF5 /* CreateContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -134,6 +135,7 @@
 		7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingSwiftResultType.swift; sourceTree = "<group>"; };
 		7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
 		7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolation.swift; sourceTree = "<group>"; };
+		7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContextMenu.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */,
 				7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */,
 				7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */,
+				7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */,
 			);
 			path = Project16_HotProspects;
 			sourceTree = "<group>";
@@ -618,6 +621,7 @@
 				7A7F9A3A23E7BC3000205919 /* pathVSshapes.swift in Sources */,
 				7A7F9A2E23E618F900205919 /* Buddle_Decodable.swift in Sources */,
 				7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */,
+				7A5E267F23F0D90A000D9CF5 /* CreateContextMenu.swift in Sources */,
 				7A7F9A3C23E8D5F900205919 /* pathStrokeBorder.swift in Sources */,
 				7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */,
 				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
