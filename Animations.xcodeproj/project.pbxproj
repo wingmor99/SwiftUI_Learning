@@ -41,6 +41,8 @@
 		7A5E268123F0DEA9000D9CF5 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */; };
 		7A5E268323F0E332000D9CF5 /* AddingSwiftPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */; };
 		7A5E268623F0E3F5000D9CF5 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A5E268523F0E3F5000D9CF5 /* SamplePackage */; };
+		7A5E268823F1EC0E000D9CF5 /* BuckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268723F1EC0E000D9CF5 /* BuckList.swift */; };
+		7A5E268B23F1ECF8000D9CF5 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E268A23F1ECF8000D9CF5 /* ProspectsView.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -141,6 +143,8 @@
 		7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContextMenu.swift; sourceTree = "<group>"; };
 		7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 		7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackage.swift; sourceTree = "<group>"; };
+		7A5E268723F1EC0E000D9CF5 /* BuckList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckList.swift; sourceTree = "<group>"; };
+		7A5E268A23F1ECF8000D9CF5 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -301,8 +305,18 @@
 				7A5E267E23F0D90A000D9CF5 /* CreateContextMenu.swift */,
 				7A5E268023F0DEA9000D9CF5 /* LocalNotifications.swift */,
 				7A5E268223F0E332000D9CF5 /* AddingSwiftPackage.swift */,
+				7A5E268723F1EC0E000D9CF5 /* BuckList.swift */,
+				7A5E268923F1EC11000D9CF5 /* BuckList_Support */,
 			);
 			path = Project16_HotProspects;
+			sourceTree = "<group>";
+		};
+		7A5E268923F1EC11000D9CF5 /* BuckList_Support */ = {
+			isa = PBXGroup;
+			children = (
+				7A5E268A23F1ECF8000D9CF5 /* ProspectsView.swift */,
+			);
+			path = BuckList_Support;
 			sourceTree = "<group>";
 		};
 		7A6115B323EF1FA200017540 /* BucketListSupportView */ = {
@@ -623,6 +637,7 @@
 				7A1960C823EB1A0700F978CC /* AnimatiingShapes.swift in Sources */,
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A1960CA23EB413000F978CC /* complexanimating.swift in Sources */,
+				7A5E268823F1EC0E000D9CF5 /* BuckList.swift in Sources */,
 				7ABF594B23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
@@ -638,6 +653,7 @@
 				7A7F9A0D23E0C4D600205919 /* customTransitions.swift in Sources */,
 				7A5E267F23F0D90A000D9CF5 /* CreateContextMenu.swift in Sources */,
 				7A7F9A3C23E8D5F900205919 /* pathStrokeBorder.swift in Sources */,
+				7A5E268B23F1ECF8000D9CF5 /* ProspectsView.swift in Sources */,
 				7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */,
 				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
 				7A26AE2623ECE960004D96DE /* instafilterProject.swift in Sources */,
