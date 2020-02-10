@@ -266,6 +266,9 @@ struct ContentView: View {
                         NavigationLink(destination: CreateContextMenu()) {
                             Text("Context Menu")
                         }
+                        NavigationLink(destination: LocalNotifications()) {
+                            Text("Schedule local notifications")
+                        }
                     }
                 }
             }
