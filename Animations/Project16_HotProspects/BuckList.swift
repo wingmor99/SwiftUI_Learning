@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct BuckList: View {
+    var prospects = Prospects()
+    
     var body: some View {
         TabView {
             ProspectsView(filter: .none)
@@ -31,7 +33,7 @@ struct BuckList: View {
 //                    Image(systemName: "person.crop.square")
 //                    Text("Me")
 //                }
-        }
+        }.environmentObject(prospects)
     }
 }
 
