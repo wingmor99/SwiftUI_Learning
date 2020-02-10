@@ -27,10 +27,29 @@ struct ProspectsView: View {
         }
     }
     
+    var filteredProspects: [Prospect] {
+        switch filter {
+        case .none: return prospects.people
+        case .contacted:
+            return prospects.people.filter { $0.isContacted }
+        case .uncontacted:
+            return prospects.people.filter { !$0.isContacted }
+        }
+    }
+    
     var body: some View {
         NavigationView {
-            Text("Prople: \(prospects.people.count)")
-            .navigationBarTitle(title)
+            ForEach(filteredProspects) {prospect in
+                VStack(alignment: .leading) {
+                    Text(prospect.name)
+                        .font(.headline)
+                    Text(prospect.emailAddress)
+                        .foregroundColor(.secondary)
+                }
+            }
+                
+                
+                .navigationBarTitle(title)
                 .navigationBarItems(trailing: Button(action: {
                     let prospect = Prospect()
                     prospect.name = "lin lin"
@@ -46,6 +65,6 @@ struct ProspectsView: View {
 
 struct ProspectsView_Previews: PreviewProvider {
     static var previews: some View {
-        ProspectsView(filter: .none)
+        ProspectsView(filter: .contacted)
     }
 }
