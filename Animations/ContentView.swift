@@ -260,6 +260,9 @@ struct ContentView: View {
                         NavigationLink(destination: PublishingObservableObjectChanges()) {
                             Text("Published and objectWillChange")
                         }
+                        NavigationLink(destination: ImageInterpolation()) {
+                            Text("Image interpolation")
+                        }
                     }
                 }
             }

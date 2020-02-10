@@ -36,6 +36,7 @@
 		7A5E267723F09667000D9CF5 /* TabAndTabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267623F09667000D9CF5 /* TabAndTabItems.swift */; };
 		7A5E267923F09A30000D9CF5 /* UnderstandingSwiftResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */; };
 		7A5E267B23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */; };
+		7A5E267D23F0D705000D9CF5 /* ImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */; };
 		7A6115B223EF1F9E00017540 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B123EF1F9E00017540 /* BucketList.swift */; };
 		7A6115B523EF385900017540 /* ProjectMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6115B423EF385900017540 /* ProjectMapView.swift */; };
 		7A77B66D23EF10DC00B1F2E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B66C23EF10DC00B1F2E4 /* MapView.swift */; };
@@ -132,6 +133,7 @@
 		7A5E267623F09667000D9CF5 /* TabAndTabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAndTabItems.swift; sourceTree = "<group>"; };
 		7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingSwiftResultType.swift; sourceTree = "<group>"; };
 		7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
+		7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInterpolation.swift; sourceTree = "<group>"; };
 		7A6115B123EF1F9E00017540 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
 		7A6115B423EF385900017540 /* ProjectMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMapView.swift; sourceTree = "<group>"; };
 		7A77B66C23EF10DC00B1F2E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				7A5E267623F09667000D9CF5 /* TabAndTabItems.swift */,
 				7A5E267823F09A30000D9CF5 /* UnderstandingSwiftResultType.swift */,
 				7A5E267A23F0AB68000D9CF5 /* PublishingObservableObjectChanges.swift */,
+				7A5E267C23F0D705000D9CF5 /* ImageInterpolation.swift */,
 			);
 			path = Project16_HotProspects;
 			sourceTree = "<group>";
@@ -637,6 +640,7 @@
 				7A1960D523EB738E00F978CC /* rakingOrderDetails.swift in Sources */,
 				7A1960C623EB12C700F978CC /* SpecialEffect.swift in Sources */,
 				7A7F9A0223DFADAD00205919 /* StringAnimating.swift in Sources */,
+				7A5E267D23F0D705000D9CF5 /* ImageInterpolation.swift in Sources */,
 				7A7F9A1B23E5CD0200205919 /* ResizImage.swift in Sources */,
 				7A5E267223F084B7000D9CF5 /* ReadingValusOfControls.swift in Sources */,
 				7A5E267923F09A30000D9CF5 /* UnderstandingSwiftResultType.swift in Sources */,
