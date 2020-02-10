@@ -269,6 +269,9 @@ struct ContentView: View {
                         NavigationLink(destination: LocalNotifications()) {
                             Text("Schedule local notifications")
                         }
+                        NavigationLink(destination: BuckList()) {
+                            Text("Hot Prospects project")
+                        }
                     }
                 }
             }
