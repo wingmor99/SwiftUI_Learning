@@ -22,19 +22,21 @@ struct BuckList: View {
                 .tabItem {
                     Image(systemName: "checkmark.circle")
                     Text("Contacted")
-                }
+            }
             ProspectsView(filter: .uncontacted)
                 .tabItem {
                     Image(systemName: "questionmark.diamond")
                     Text("Uncontacted")
                 }
-//            MeView()
-//                .tabItem {
-//                    Image(systemName: "person.crop.square")
-//                    Text("Me")
-//                }
-        }.environmentObject(prospects)
+            MeView()
+                .tabItem {
+                    Image(systemName: "person.crop.square")
+                    Text("Me")
+                }
+        }
+        .environmentObject(prospects)
     }
+    
 }
 
 struct BuckList_Previews: PreviewProvider {
