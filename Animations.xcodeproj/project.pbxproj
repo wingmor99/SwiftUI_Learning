@@ -29,6 +29,7 @@
 		7A26AE2823ECEE09004D96DE /* ImagePicker_Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */; };
 		7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */; };
 		7A26B9B923EF970E0072EA78 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26B9B823EF970E0072EA78 /* PlacesListView.swift */; };
+		7A32B23723F2F5AC00358E50 /* HowToUseGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */; };
 		7A5E266E23F07F84000D9CF5 /* identifyViewsWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */; };
 		7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */; };
 		7A5E267223F084B7000D9CF5 /* ReadingValusOfControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */; };
@@ -135,6 +136,7 @@
 		7A26AE2723ECEE09004D96DE /* ImagePicker_Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker_Project.swift; sourceTree = "<group>"; };
 		7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableTypes.swift; sourceTree = "<group>"; };
 		7A26B9B823EF970E0072EA78 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
+		7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseGestures.swift; sourceTree = "<group>"; };
 		7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyViewsWithLabel.swift; sourceTree = "<group>"; };
 		7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAccessibility.swift; sourceTree = "<group>"; };
 		7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingValusOfControls.swift; sourceTree = "<group>"; };
@@ -290,6 +292,14 @@
 			path = Project14_BucketList;
 			sourceTree = "<group>";
 		};
+		7A32B23523F2F4CE00358E50 /* Project17_Flashzilla */ = {
+			isa = PBXGroup;
+			children = (
+				7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */,
+			);
+			path = Project17_Flashzilla;
+			sourceTree = "<group>";
+		};
 		7A5E266C23F07F60000D9CF5 /* Project15_Accessibility */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +388,7 @@
 				7A7F99D223DE857100205919 /* Info.plist */,
 				7A7F99CF23DE857100205919 /* LaunchScreen.storyboard */,
 				7A7F99CA23DE857100205919 /* Assets.xcassets */,
+				7A32B23523F2F4CE00358E50 /* Project17_Flashzilla */,
 				7A7F99C523DE857000205919 /* Animations.xcdatamodeld */,
 				7A7F99CC23DE857100205919 /* Preview Content */,
 			);
@@ -654,6 +665,7 @@
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
 				7A1960D823EB77A700F978CC /* orderclass.swift in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
+				7A32B23723F2F5AC00358E50 /* HowToUseGestures.swift in Sources */,
 				7A7F9A1223E133FA00205919 /* SaveInDefault.swift in Sources */,
 				7A7F9A0023DFA4D400205919 /* animatingGestures.swift in Sources */,
 				7A1960D123EB56C200F978CC /* receivingURL.swift in Sources */,
