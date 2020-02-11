@@ -30,6 +30,7 @@
 		7A26AE3223EE50ED004D96DE /* ComparableTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */; };
 		7A26B9B923EF970E0072EA78 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26B9B823EF970E0072EA78 /* PlacesListView.swift */; };
 		7A32B23723F2F5AC00358E50 /* HowToUseGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */; };
+		7A32B23923F3640B00358E50 /* GestureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32B23823F3640B00358E50 /* GestureSample.swift */; };
 		7A5E266E23F07F84000D9CF5 /* identifyViewsWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */; };
 		7A5E267023F08371000D9CF5 /* GroupAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */; };
 		7A5E267223F084B7000D9CF5 /* ReadingValusOfControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */; };
@@ -137,6 +138,7 @@
 		7A26AE3123EE50ED004D96DE /* ComparableTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableTypes.swift; sourceTree = "<group>"; };
 		7A26B9B823EF970E0072EA78 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
 		7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseGestures.swift; sourceTree = "<group>"; };
+		7A32B23823F3640B00358E50 /* GestureSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureSample.swift; sourceTree = "<group>"; };
 		7A5E266D23F07F84000D9CF5 /* identifyViewsWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identifyViewsWithLabel.swift; sourceTree = "<group>"; };
 		7A5E266F23F08371000D9CF5 /* GroupAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAccessibility.swift; sourceTree = "<group>"; };
 		7A5E267123F084B7000D9CF5 /* ReadingValusOfControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingValusOfControls.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				7A32B23623F2F5AC00358E50 /* HowToUseGestures.swift */,
+				7A32B23823F3640B00358E50 /* GestureSample.swift */,
 			);
 			path = Project17_Flashzilla;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				7A1960D323EB5DCD00F978CC /* disableForm.swift in Sources */,
 				7A7F99FB23DF3FED00205919 /* Headtext.swift in Sources */,
 				7A7F9A3223E651FF00205919 /* MissionDetail.swift in Sources */,
+				7A32B23923F3640B00358E50 /* GestureSample.swift in Sources */,
 				7A7F99F523DE859800205919 /* Button1.swift in Sources */,
 				7A7F9A3E23EA066F00205919 /* TransformingShapes.swift in Sources */,
 				7A13325423EE52ED00B93AFA /* writeFileinDocuments.swift in Sources */,

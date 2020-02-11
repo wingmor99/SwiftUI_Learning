@@ -285,6 +285,9 @@ struct ContentView: View {
                     }
                 ){
                     if self.showingFlashzilla {
+                        NavigationLink(destination: GestureSample()) {
+                            Text("animation gesture ")
+                        }
                         NavigationLink(destination: HowToUseGestures()) {
                             Text("How to use gesture")
                         }
