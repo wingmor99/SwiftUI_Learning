@@ -11,17 +11,17 @@
 import SwiftUI
 
 struct Response: Codable {
-    var results: [Result]
+    var results: [Result_cupcake]
 }
 
-struct Result: Codable {
+struct Result_cupcake: Codable {
     var trackId: Int
     var trackName: String
     var collectionName: String
 }
 
 struct receivingURL: View {
-    @State var results = [Result]()
+    @State var results = [Result_cupcake]()
 
     var body: some View {
         List(results, id: \.trackId) {item in
