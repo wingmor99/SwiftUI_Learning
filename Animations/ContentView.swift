@@ -291,6 +291,12 @@ struct ContentView: View {
                         NavigationLink(destination: HowToUseGestures()) {
                             Text("How to use gesture")
                         }
+                        NavigationLink(destination: MakingVibration()) {
+                            Text("Make vibration")
+                        }
+                        NavigationLink(destination: DiableUserInteractivity()) {
+                            Text("allowHitTexting to text the tap")
+                        }
                     }
                 }
             }
