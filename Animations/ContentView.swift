@@ -297,6 +297,9 @@ struct ContentView: View {
                         NavigationLink(destination: DiableUserInteractivity()) {
                             Text("allowHitTexting to text the tap")
                         }
+                        NavigationLink(destination: WorkWithTimer()) {
+                            Text("Work with Timer")
+                        }
                     }
                 }
             }

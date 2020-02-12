@@ -97,6 +97,7 @@
 		7ABF595123EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */; };
 		7AFE319923F4A97F005B9319 /* MakingVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319823F4A97F005B9319 /* MakingVibration.swift */; };
 		7AFE319B23F4B078005B9319 /* DiableUserInteractivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */; };
+		7AFE319D23F4B335005B9319 /* WorkWithTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		7ABF595023EF6B6300A9D9BD /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		7AFE319823F4A97F005B9319 /* MakingVibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingVibration.swift; sourceTree = "<group>"; };
 		7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiableUserInteractivity.swift; sourceTree = "<group>"; };
+		7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +307,7 @@
 				7A32B23823F3640B00358E50 /* GestureSample.swift */,
 				7AFE319823F4A97F005B9319 /* MakingVibration.swift */,
 				7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */,
+				7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */,
 			);
 			path = Project17_Flashzilla;
 			sourceTree = "<group>";
@@ -689,6 +692,7 @@
 				7A7F9A3C23E8D5F900205919 /* pathStrokeBorder.swift in Sources */,
 				7A5E269123F1F955000D9CF5 /* MeView.swift in Sources */,
 				7A5E268B23F1ECF8000D9CF5 /* ProspectsView.swift in Sources */,
+				7AFE319D23F4B335005B9319 /* WorkWithTimer.swift in Sources */,
 				7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */,
 				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
 				7A26AE2623ECE960004D96DE /* instafilterProject.swift in Sources */,
