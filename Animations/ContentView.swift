@@ -18,7 +18,8 @@ struct ContentView: View {
     @State private var showCupcake = false
     @State private var showinstafilter = false
     @State private var showingaccessibility = false
-    @State private var showingHotProspects = true
+    @State private var showingHotProspects = false
+    @State private var showingFlashzilla = true
     
     var body: some View {
         NavigationView {
@@ -271,6 +272,36 @@ struct ContentView: View {
                         }
                         NavigationLink(destination: BuckList()) {
                             Text("Hot Prospects project")
+                        }
+                    }
+                }
+                Section(header:
+                    HStack{
+                        Text("Project 17 Flashzilla")
+                        Spacer()
+                        Image(systemName: "plus")
+                    }.onTapGesture {
+                        self.showingFlashzilla.toggle()
+                    }
+                ){
+                    if self.showingFlashzilla {
+                        NavigationLink(destination: GestureSample()) {
+                            Text("animation gesture ")
+                        }
+                        NavigationLink(destination: HowToUseGestures()) {
+                            Text("How to use gesture")
+                        }
+                        NavigationLink(destination: MakingVibration()) {
+                            Text("Make vibration")
+                        }
+                        NavigationLink(destination: DiableUserInteractivity()) {
+                            Text("allowHitTexting to text the tap")
+                        }
+                        NavigationLink(destination: WorkWithTimer()) {
+                            Text("Work with Timer")
+                        }
+                        NavigationLink(destination: MoveAppBackground()) {
+                            Text("Noticed when app move to background")
                         }
                     }
                 }
