@@ -300,6 +300,9 @@ struct ContentView: View {
                         NavigationLink(destination: WorkWithTimer()) {
                             Text("Work with Timer")
                         }
+                        NavigationLink(destination: MoveAppBackground()) {
+                            Text("Noticed when app move to background")
+                        }
                     }
                 }
             }

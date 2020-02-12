@@ -98,6 +98,7 @@
 		7AFE319923F4A97F005B9319 /* MakingVibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319823F4A97F005B9319 /* MakingVibration.swift */; };
 		7AFE319B23F4B078005B9319 /* DiableUserInteractivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */; };
 		7AFE319D23F4B335005B9319 /* WorkWithTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */; };
+		7AFE319F23F4BBBB005B9319 /* MoveAppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,7 @@
 		7AFE319823F4A97F005B9319 /* MakingVibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingVibration.swift; sourceTree = "<group>"; };
 		7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiableUserInteractivity.swift; sourceTree = "<group>"; };
 		7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTimer.swift; sourceTree = "<group>"; };
+		7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAppBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +310,7 @@
 				7AFE319823F4A97F005B9319 /* MakingVibration.swift */,
 				7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */,
 				7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */,
+				7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */,
 			);
 			path = Project17_Flashzilla;
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 				7AFE319D23F4B335005B9319 /* WorkWithTimer.swift in Sources */,
 				7A7F9A3823E7B1FD00205919 /* customPaths.swift in Sources */,
 				7A7F9A0B23E0C2E700205919 /* transitionAnimation.swift in Sources */,
+				7AFE319F23F4BBBB005B9319 /* MoveAppBackground.swift in Sources */,
 				7A26AE2623ECE960004D96DE /* instafilterProject.swift in Sources */,
 				7A7F9A2C23E616CA00205919 /* Astronauts.swift in Sources */,
 				7A7F9A1623E1D91800205919 /* IExpense.swift in Sources */,
