@@ -21,7 +21,7 @@ struct Flashzilla: View {
     @State private var cards = [Card](repeating: Card.example, count: 10)
     
     // Adding timer
-    @State private var timeRemaining = 100
+    @State private var timeRemaining = 10
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State private var isActive = true
     
@@ -53,6 +53,15 @@ struct Flashzilla: View {
                             .stacked(at: index, in: self.cards.count)
                     }
                 }
+                .allowsHitTesting(timeRemaining > 0)
+                
+                if cards.isEmpty {
+                    Button("Start Again", action: resetCards)
+                        .padding()
+                        .background(Color.white)
+                        .foregroundColor(.black)
+                        .clipShape(Capsule())
+                }
             }
         }
         .onReceive(timer) { time in
@@ -65,12 +74,24 @@ struct Flashzilla: View {
             self.isActive = false
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
-            self.isActive = true
+            if self.cards.isEmpty == false {
+                self.isActive = true
+            }
         }
     }
     
     func removeCard(at index: Int) {
         cards.remove(at: index)
+        // stop timer when remove last card
+        if cards.isEmpty {
+            isActive = false
+        }
+    }
+    
+    func resetCards() {
+        cards = [Card](repeating: Card.example, count: 10)
+        timeRemaining = 10
+        isActive = true
     }
 }
 
