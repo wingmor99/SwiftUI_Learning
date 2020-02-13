@@ -52,6 +52,9 @@ struct SingleCaedView: View {
             .multilineTextAlignment(.center)
         }
         .frame(width: 450, height: 250)
+        .onTapGesture {
+            self.isShowingAnswer.toggle()
+        }
         .rotationEffect(.degrees(Double(offset.width / 5)))
         .offset(x: offset.width, y: 0)
         .opacity(2 - Double(abs(offset.width / 50)))
