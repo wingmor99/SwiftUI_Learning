@@ -303,6 +303,9 @@ struct ContentView: View {
                         NavigationLink(destination: MoveAppBackground()) {
                             Text("Noticed when app move to background")
                         }
+                        NavigationLink(destination: Flashzilla()) {
+                            Text("Flashzilla Project")
+                        }
                     }
                 }
             }
