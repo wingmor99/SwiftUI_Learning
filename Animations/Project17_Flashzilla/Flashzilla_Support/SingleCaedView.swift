@@ -20,6 +20,9 @@ struct Card {
 struct SingleCaedView: View {
     let card: Card
     @State private var isShowingAnswer = false
+    @State private var offset = CGSize.zero
+    // remove the card
+    var removal: (() -> Void)? = nil
     
     var body: some View {
         ZStack {
@@ -41,9 +44,24 @@ struct SingleCaedView: View {
             .multilineTextAlignment(.center)
         }
         .frame(width: 450, height: 250)
-        .onTapGesture {
-            self.isShowingAnswer.toggle()
-        }
+        .rotationEffect(.degrees(Double(offset.width / 5)))
+        .offset(x: offset.width, y: 0)
+        .opacity(2 - Double(abs(offset.width / 50)))
+        .gesture(
+            DragGesture()
+                .onChanged { value in
+                    self.offset = value.translation
+                }
+                
+                .onEnded { _ in
+                    if abs(self.offset.width) > 100 {
+                        // remove the card
+                        self.removal?()
+                    } else {
+                        self.offset = .zero
+                    }
+                }
+        )
     }
 }
 

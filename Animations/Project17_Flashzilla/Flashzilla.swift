@@ -31,12 +31,20 @@ struct Flashzilla: View {
                     
                     ForEach(0..<cards.count, id: \.self) {index in
                         
-                        SingleCaedView(card: self.cards[index])
+                        SingleCaedView(card: self.cards[index]) {
+                            withAnimation {
+                                self.removeCard(at: index)
+                            }
+                        }
                             .stacked(at: index, in: self.cards.count)
                     }
                 }
             }
         }
+    }
+    
+    func removeCard(at index: Int) {
+        cards.remove(at: index)
     }
 }
 
