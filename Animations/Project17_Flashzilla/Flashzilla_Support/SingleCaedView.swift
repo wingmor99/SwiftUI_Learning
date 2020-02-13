@@ -24,6 +24,9 @@ struct SingleCaedView: View {
     // remove the card
     var removal: (() -> Void)? = nil
     
+    // Vibration
+    @State private var feedback = UINotificationFeedbackGenerator()
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25, style: .continuous)
@@ -62,10 +65,17 @@ struct SingleCaedView: View {
             DragGesture()
                 .onChanged { value in
                     self.offset = value.translation
+                    // prepare the vibration engine
+                    self.feedback.prepare()
                 }
                 
                 .onEnded { _ in
                     if abs(self.offset.width) > 100 {
+                        if self.offset.width > 0 {
+                            self.feedback.notificationOccurred(.success)
+                        } else {
+                            self.feedback.notificationOccurred(.error)
+                        }
                         // remove the card
                         self.removal?()
                     } else {
