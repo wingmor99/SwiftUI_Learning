@@ -18,12 +18,15 @@ extension View {
 }
 
 struct Flashzilla: View {
-    @State private var cards = [Card](repeating: Card.example, count: 10)
+    @State private var cards = [Card]()
     
     // Adding timer
     @State private var timeRemaining = 10
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State private var isActive = true
+    
+    // add card
+    @State private var showingEditScreen = false
     
     var body: some View {
         ZStack {
@@ -31,6 +34,24 @@ struct Flashzilla: View {
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
             VStack {
+                VStack {
+                    HStack {
+                        Spacer()
+                        
+                        Button(action: {
+                            self.showingEditScreen = true
+                        }) {
+                            Image(systemName: "plus.circle")
+                                .padding()
+                                .background(Color.black.opacity(0.75))
+                                .clipShape(Circle())
+                        }
+                    }
+                }
+                .foregroundColor(.white)
+                .font(.largeTitle)
+                .padding()
+                
                 Text("Time: \(timeRemaining)")
                 .font(.largeTitle)
                 .foregroundColor(.white)
@@ -66,6 +87,11 @@ struct Flashzilla: View {
                 }
             }
         }
+        .sheet(isPresented: $showingEditScreen, onDismiss: resetCards) {
+            EditView_17()
+        }
+        // reset before show
+        .onAppear(perform: resetCards)
         .onReceive(timer) { time in
             guard self.isActive else {return}
             if self.timeRemaining > 0 {
@@ -91,9 +117,17 @@ struct Flashzilla: View {
     }
     
     func resetCards() {
-        cards = [Card](repeating: Card.example, count: 10)
         timeRemaining = 10
         isActive = true
+        loadData()
+    }
+    
+    func loadData() {
+        if let data = UserDefaults.standard.data(forKey: "Cards") {
+            if let decoded = try? JSONDecoder().decode([Card].self, from: data) {
+                self.cards = decoded
+            }
+        }
     }
 }
 

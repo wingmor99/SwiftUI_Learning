@@ -101,6 +101,7 @@
 		7AFE319F23F4BBBB005B9319 /* MoveAppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */; };
 		7AFE31A123F58268005B9319 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A023F58268005B9319 /* Flashzilla.swift */; };
 		7AFE31A423F5831A005B9319 /* SingleCaedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A323F5831A005B9319 /* SingleCaedView.swift */; };
+		7AFE31A623F61C23005B9319 /* EditView_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A523F61C23005B9319 /* EditView_17.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +220,7 @@
 		7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAppBackground.swift; sourceTree = "<group>"; };
 		7AFE31A023F58268005B9319 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
 		7AFE31A323F5831A005B9319 /* SingleCaedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCaedView.swift; sourceTree = "<group>"; };
+		7AFE31A523F61C23005B9319 /* EditView_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView_17.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -516,6 +518,7 @@
 			isa = PBXGroup;
 			children = (
 				7AFE31A323F5831A005B9319 /* SingleCaedView.swift */,
+				7AFE31A523F61C23005B9319 /* EditView_17.swift */,
 			);
 			path = Flashzilla_Support;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
+				7AFE31A623F61C23005B9319 /* EditView_17.swift in Sources */,
 				7A1960D823EB77A700F978CC /* orderclass.swift in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
 				7A32B23723F2F5AC00358E50 /* HowToUseGestures.swift in Sources */,
