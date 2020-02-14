@@ -20,7 +20,8 @@ struct ContentView: View {
     @State private var showingaccessibility = false
     @State private var showingHotProspects = false
     @State private var showingFlashzilla = false
-    @State private var showingGeometry = true
+    @State private var showingGeometry = false
+    @State private var showingIpad = true
     
     var body: some View {
         NavigationView {
@@ -338,6 +339,21 @@ struct ContentView: View {
                             }
                             NavigationLink(destination: horizontalRotation()) {
                                 Text("Horizontal Rotation")
+                            }
+                        }
+                    }
+                    Section(header:
+                        HStack{
+                            Text("Project 19 app for ipad")
+                            Spacer()
+                            Image(systemName: "plus")
+                        }.onTapGesture {
+                            self.showingIpad.toggle()
+                        }
+                    ) {
+                        if self.showingIpad {
+                            NavigationLink(destination: WorkingWithTwoSide()) {
+                                Text("Working with two side view")
                             }
                         }
                     }
