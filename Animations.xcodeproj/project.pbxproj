@@ -99,6 +99,9 @@
 		7AFE319B23F4B078005B9319 /* DiableUserInteractivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */; };
 		7AFE319D23F4B335005B9319 /* WorkWithTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */; };
 		7AFE319F23F4BBBB005B9319 /* MoveAppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */; };
+		7AFE31A123F58268005B9319 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A023F58268005B9319 /* Flashzilla.swift */; };
+		7AFE31A423F5831A005B9319 /* SingleCaedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A323F5831A005B9319 /* SingleCaedView.swift */; };
+		7AFE31A623F61C23005B9319 /* EditView_17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE31A523F61C23005B9319 /* EditView_17.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +218,9 @@
 		7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiableUserInteractivity.swift; sourceTree = "<group>"; };
 		7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTimer.swift; sourceTree = "<group>"; };
 		7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAppBackground.swift; sourceTree = "<group>"; };
+		7AFE31A023F58268005B9319 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
+		7AFE31A323F5831A005B9319 /* SingleCaedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCaedView.swift; sourceTree = "<group>"; };
+		7AFE31A523F61C23005B9319 /* EditView_17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView_17.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +317,8 @@
 				7AFE319A23F4B078005B9319 /* DiableUserInteractivity.swift */,
 				7AFE319C23F4B335005B9319 /* WorkWithTimer.swift */,
 				7AFE319E23F4BBBB005B9319 /* MoveAppBackground.swift */,
+				7AFE31A023F58268005B9319 /* Flashzilla.swift */,
+				7AFE31A223F5826F005B9319 /* Flashzilla_Support */,
 			);
 			path = Project17_Flashzilla;
 			sourceTree = "<group>";
@@ -506,6 +514,15 @@
 			path = Drawing;
 			sourceTree = "<group>";
 		};
+		7AFE31A223F5826F005B9319 /* Flashzilla_Support */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE31A323F5831A005B9319 /* SingleCaedView.swift */,
+				7AFE31A523F61C23005B9319 /* EditView_17.swift */,
+			);
+			path = Flashzilla_Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -676,11 +693,14 @@
 				7A7F99C223DE857000205919 /* AppDelegate.swift in Sources */,
 				7A1960CA23EB413000F978CC /* complexanimating.swift in Sources */,
 				7A5E268823F1EC0E000D9CF5 /* BuckList.swift in Sources */,
+				7AFE31A423F5831A005B9319 /* SingleCaedView.swift in Sources */,
+				7AFE31A123F58268005B9319 /* Flashzilla.swift in Sources */,
 				7ABF594B23EF51D000A9D9BD /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				7AFE319B23F4B078005B9319 /* DiableUserInteractivity.swift in Sources */,
 				7A7F99F723DF38AE00205919 /* explicitAnimationButton.swift in Sources */,
 				7A7F9A3423E65F6100205919 /* AstronauntDetailView.swift in Sources */,
 				7A7F99C723DE857000205919 /* Animations.xcdatamodeld in Sources */,
+				7AFE31A623F61C23005B9319 /* EditView_17.swift in Sources */,
 				7A1960D823EB77A700F978CC /* orderclass.swift in Sources */,
 				7A7F99FD23DF449300205919 /* easeButton.swift in Sources */,
 				7A32B23723F2F5AC00358E50 /* HowToUseGestures.swift in Sources */,
