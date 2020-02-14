@@ -27,7 +27,7 @@ struct Flashzilla: View {
     
     var body: some View {
         ZStack {
-            Image("background")
+            Image(decorative: "background")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
             VStack {
@@ -51,6 +51,8 @@ struct Flashzilla: View {
                             }
                         }
                             .stacked(at: index, in: self.cards.count)
+                        // stop drag card below
+                            .allowsHitTesting(index == self.cards.count - 1)
                     }
                 }
                 .allowsHitTesting(timeRemaining > 0)
