@@ -355,6 +355,9 @@ struct ContentView: View {
                             NavigationLink(destination: WorkingWithTwoSide()) {
                                 Text("Working with two side view")
                             }
+                            NavigationLink(destination: OptionalSheetAndAlert()) {
+                                Text("Using Optional to simpler coding")
+                            }
                         }
                     }
                 }
